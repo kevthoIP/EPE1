@@ -36,15 +36,46 @@
           </div>
         </div>
     </nav>
-    <!-- Insertando Funcion Card para Mostrar los viajes -->
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    <br>
+    <!-- Insertando Funcion Accordion para Mostrar El Inicio -->
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Bienvenido a Vuela Lejos AirLines!
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Donde los sueños si se cumplen</strong> Un deslumbrante cielo azul se funde con las imponentes alas de un avión, evocando la emoción de la aventura y la libertad que solo el viaje puede ofrecer. A medida que el sol se eleva en el horizonte, nuestras promesas de comodidad, seguridad y destinos inexplorados se insinúan en cada pixel, invitándote a embarcar en un viaje de ensueño con nosotros.
+            </div>
+          </div>
         </div>
-    </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Ven y Vive la Experiencia!
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>¿Que esperas?</strong> Al cruzar el umbral digital y explorar la página de "Vuela Lejos Airlines", te embarcarás en una experiencia que despierta todos tus sentidos y desencadena una ola de emociones. Al instante, serás recibido por una panorámica deslumbrante que evoca la sensación de estar en el umbral mismo del cielo. Un cielo de un azul profundo y claro se extiende ante ti, envolviéndote en una sensación de paz y tranquilidad mientras te preparas para un viaje único.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- Footer, se inserta al final de la pagina, para que tenga un termino -->
     <footer class="bg-dark py-5 mt-5">
         <div class="container text-light text-center">
